@@ -108,7 +108,7 @@
     <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
     <h5>Responsive Navbar with Toggle</h5>
     <hr>
-    <nav class="navbar navbar-expand-sm navbar-light bg-info">
+    <nav class="navbar navbar-expand-sm navbar-light bg-success">
         <div class="container">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
@@ -168,45 +168,175 @@
           </div>
     </nav>
 
+    <br><br>
 
     <!-- NAVBAR WITH DROPDOWN -->
+    <h5>Navbar With Dropdown</h5>
+    <hr>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Link 1</a>
+                      <a href="#" class="dropdown-item">Link 2</a>
+                      <a href="#" class="dropdown-item">Link 3</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                  </li>
+              </ul>
+          </div>
+    </nav>
 
-
-    <!-- COLORS -->
-
+    <br><br>
 
     <div class="container">
 
         <!-- NAVS -->
-        <ul>
-            <li>
-                <a href="#">Link 1</a>
+        <h5>Left Align</h5>
+        <small class="text-muted text-left d-block">Natural Flow or justify-content-start</small>
+        <hr>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
             </li>
-            <li>
-                <a href="#">Link 2</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
             </li>
-            <li>
-                <a href="#">Link 3</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
             </li>
-            <li>
-                <a href="#">Link 4</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
             </li>
         </ul>
 
+        <br><br>
 
         <!-- HORIZONTAL ALIGN -->
+        <h5 class="text-center">Horizontal Align</h5>
+        <small class="text-muted text-center d-block">justify-content-center</small>
+        <hr>
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
+        <br><br>
 
         <!-- RIGHT ALIGN -->
+        <h5 class="text-right">Right Align</h5>
+        <small class="text-muted text-right d-block">justify-content-end</small>
+        <hr>
+        <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
+        <br><br>
 
         <!-- VERTICAL -->
+        <h5 class="text-left">Vertical</h5>
+        <small class="text-muted d-block">flex-column</small>
+        <hr>
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
+        <br><br>
 
         <!-- FILL & JUSTIFY -->
+        <h5 class="text-left">Fill & Justify</h5>
+        <small class="text-muted d-block">nav-fill</small>
+        <hr>
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
+        <br><br>
 
         <!-- WITH DROPDOWNS -->
+        <h5 class="text-left">With Dropdowns</h5>
+        <small class="text-muted d-block">nav-fill</small>
+        <hr>
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link 1</a>
+                <a href="#" class="dropdown-item">Link 2</a>
+                <a href="#" class="dropdown-item">Link 3</a>
+                <a href="#" class="dropdown-item">Link 4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
 
     </div><!-- ./container -->
