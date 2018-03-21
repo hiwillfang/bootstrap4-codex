@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <title>Bootstrap Sandbox</title>
 </head>
-<body>
+<body style="background-color: #e0e0e0;">
     <header>
         <h1 class="display-3 text-center my-4">Alerts & Progress Bars</h1>
         <div class="container">
@@ -83,42 +83,50 @@
         <!--########################START HERE#########################-->
 
         <!-- ALERTS -->
-        <div>
-          <strong>Primary</strong> Blog post added
+        <h5>Alerts</h5>
+        <small class="text-muted">example: class="alert alert-primary"</small>
+        <hr>
+
+        <div class="alert alert-primary">
+          <a href="" class="alert-link">Primary: Alert Link</a>
         </div>
 
-        <div>
+        <div class="alert alert-secondary">
           <strong>Secondary</strong> Blog post added
         </div>
 
-        <div>
+        <div class="alert alert-success">
             <strong>Success</strong> Blog post added
         </div>
 
-        <div>
+        <div class="alert alert-danger">
             <strong>Danger</strong> Please check the log files
         </div>
 
-        <div>
+        <div class="alert alert-info">
             <strong>Info</strong> You have a new message
         </div>
 
-        <div>
+        <div class="alert alert-warning">
             <strong>Warning</strong> Please check the log files
         </div>
 
-        <div>
+        <div class="alert alert-light">
             <strong>Light</strong> Please check the log files
         </div>
 
-        <div>
+        <div class="alert alert-dark">
             <strong>Dark</strong> Please check the log files
         </div>
 
+        <br><br>
 
         <!-- DISMISSABLE ALERT -->
-        <div>
-            <button type="button">
+        <h5>Dismissable Alert</h5>
+        <hr>
+
+        <div class="alert alert-success alert-dismissible fade show">
+            <button class="close" data-dismiss="alert" type="button">
                 <span>&times;</span>
             </button>
             <strong>Dismissable</strong> Blog post added
@@ -127,28 +135,31 @@
         <br><br>
 
         <!-- PROGRESS BARS -->
-        <div>
-            <div></div>
+        <h5>Progress Bars</h5>
+        <hr>
+
+        <div class="progress">
+            <div class="progress-bar" style="width: 35%;"></div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress">
+            <div class="progress-bar" style="width: 50%;">50%</div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 100%;">100%</div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress">
+            <div class="progress-bar bg-danger" style="width: 10%;">10% Battery</div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress">
+            <div class="progress-bar bg-warning progress-bar-striped" style="width: 70%;">Striped</div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress">
+            <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 95%;">Animated</div>
         </div>
         <br>
         <div>
@@ -156,7 +167,7 @@
         </div>
 
     </div><!-- ./container -->
-    <div style="margin-top:500px;"></div>
+    <div style="margin-top:300px;"></div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
