@@ -6,6 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <title>Bootstrap Codex</title>
+    <style>
+        .jumbotron {
+          margin-bottom: 0;
+          border-radius: 0;
+        }
+
+        .pc-parallax {
+          min-height: 600px;
+          background-attachment: fixed;
+          background-size: cover;
+          background-position: center;
+        }
+
+        .pc-parallax-one {
+           background-image: url("https://images.unsplash.com/photo-1475069280216-c17b04bfa586?ixlib=rb-0.3.5&s=8073cb04f5778f740f7745c7debe082a&auto=format&fit=crop&w=1950&q=80");
+         }
+
+         .pc-parallax-two {
+           background-image: url("https://images.unsplash.com/photo-1504284674659-1216fb2866c0?ixlib=rb-0.3.5&s=d2b21de201ded1e732d26bec1cf974a2&auto=format&fit=crop&w=1605&q=80");
+         }
+
+         .pc-parallax-three {
+           background-image: url("https://images.unsplash.com/photo-1519916340768-6710a9735b10?ixlib=rb-0.3.5&s=3e20494e2d1c2d6147215095bb1259eb&auto=format&fit=crop&w=1950&q=80");
+         }
+    </style>
 </head>
 <body style="background-color: #e0e0e0;">
     <header>
@@ -79,27 +104,53 @@
         <hr>
       </header>
 
-      <div class="container">
         <!--########################START HERE#########################-->
 
-        <div class="card text-center mt-5">
-            <div class="card-body">
-                <h4 class="card-title">Bootstrap 4 Codex</h4>
-                <p class="card-text">A list of all Bootstrap 4 Utilities, CSS Components, Grids, Flexbox, and JS Widgets made for you to reference from.</p>
-                <p class="card-text">All examples are utilizing the latest version of Boostrap 4.</p>
-                <div class="bg-dark text-left card-body text-white p-3 rounded">
-                  <p class="card-text">Everything in Bootstrap 4 is highly customizable. The library was created as a layout and design framework for developers and web designers.</p>
-                  <p class="card-text"> To customize any Bootstrap native element you should:</p>
-                  <ul class="card-text">
-                    <li>Add custom class after declared helper classes.</li>
-                    <li>To avoid class conflicts, please prefix all custom classes with pc-</li>
-                  </ul>
-                </div>
+        <!-- First Parallax Section -->
+        <section class="text-center text-white">
+          <div class="row">
+            <div class="container-fluid">
+              <div class="jumbotron pc-parallax pc-parallax-one">
+                  <h1 class="display-3">Here is a heading 1</h1>
+                  <p class="lead">Here is a short description 1</p>
+                  <p class="lead">
+                      <a class="btn btn-info btn-lg btn-md" href="#" role="button">Here is a button 1</a>
+                  </p>
+              </div>
             </div>
-        </div>
+          </div>
+        </section>
 
-    </div><!-- ./container -->
-    <div style="margin-top:300px;"></div>
+        <!-- Second Parallax Section -->
+        <section class="text-center text-white">
+          <div class="row">
+            <div class="container-fluid">
+              <div class="jumbotron pc-parallax pc-parallax-two">
+                  <h1 class="display-3">Here is a heading 2</h1>
+                  <p class="lead">Here is a short description 2</p>
+                  <p class="lead">
+                      <a class="btn btn-warning btn-lg btn-md" href="widgets.html" role="button">Here is a button 2</a>
+                  </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Third Parallax Section -->
+        <section class="text-center text-white">
+          <div class="row">
+            <div class="container-fluid">
+              <div class="jumbotron pc-parallax pc-parallax-three">
+                  <h1 class="display-3">Here is a heading 3</h1>
+                  <p class="lead">Here is a short description 2</p>
+                  <p class="lead">
+                      <a class="btn btn-primary btn-lg btn-md" href="themes.html" role="button">Here is a button 3</a>
+                  </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
